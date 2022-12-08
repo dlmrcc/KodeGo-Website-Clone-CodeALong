@@ -1,0 +1,16 @@
+.header
+{
+     &__nav
+    {
+        float: right;
+         & li {
+            display: inline-block;
+            margin-left: 1.5em;
+        } 
+     } 
+
+    &__user-links
+     {
+        float: right;
+    } 
+ }  
