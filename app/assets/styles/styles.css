@@ -1,13 +1,35 @@
 @import 'normalize.css';
+@import './base/_global';
+@import './modules/_container';
 
-body {
-    color: orange;
+*{
+    box-sizing: border-box;
 }
+
 a, a:active{
     text-decoration: none;
     color: inherit;
 }
 
-h1, h2, h3, h4{
-    color: green;
+.nav
+{
+float: right;
+}
+
+.nav li
+{
+display: inline-block;
+margin-left: 1.5em;
+}
+
+.user-links
+{
+    float: right;
+}
+
+.container
+{
+    width: 80%;
+    margin: auto;
+    border: 1px solid black;
 }
