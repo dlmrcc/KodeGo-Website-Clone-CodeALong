@@ -1,8 +1,11 @@
 .header
 {
+ 
      &__nav
     {
         float: right;
+        color: $mainBlue;
+
          & li {
             display: inline-block;
             margin-left: 1.5em;
@@ -12,5 +15,6 @@
     &__user-links
      {
         float: right;
+        
     } 
  }  
