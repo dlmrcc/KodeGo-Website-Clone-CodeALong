@@ -1,10 +1,12 @@
-*{
-    box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
+* {
+  box-sizing: border-box;
+
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
 }
 
-a, a:active{
-    text-decoration: none;
-    color: inherit;
+a,
+a:active {
+  text-decoration: none;
+  color: inherit;
 }
