@@ -5,7 +5,6 @@
       rgba(40, 66, 101, 0.25)
     ),
     url("assets/images/banner-background.png");
-  /* background-image: url("assets/images/banner-background.png"); */
 
   &__container {
     display: flex;
@@ -17,11 +16,10 @@
     padding: 3.125rem;
     color: #fff;
     font-size: 1.2em;
-    /* border: 1px solid black; */
   }
+
   &__image-container {
     width: 50%;
-    /* border: 1px solid black; */
   }
 
   &__image {
@@ -35,6 +33,5 @@
   &__text {
     line-height: 1.7;
     font-weight: 100;
-    font-size: 1.2em;
   }
 }
